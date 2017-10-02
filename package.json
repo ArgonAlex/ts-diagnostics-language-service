@@ -1,0 +1,29 @@
+{
+  "name": "ts-diagnostics-language-service",
+  "version": "0.1.0",
+  "description": "Allows filtering and changing the category of diagnostics returned from tsserver",
+  "main": "dist/index.js",
+  "files": [
+    "dist/index.js"
+  ],
+  "author": "Alex Walter",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ArgonAlex/ts-diagnostics-language-service.git"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "scripts": {
+    "prepare": "tsc",
+    "build": "tsc",
+    "clean": "rm -rf dist"
+  },
+  "devDependencies": {
+    "typescript": "^2.5.3"
+  },
+  "peerDependencies": {
+    "typescript": "^2.3.1"
+  }
+}
